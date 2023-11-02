@@ -7,12 +7,12 @@ public class Bee2729 {
         
         Scanner sc = new Scanner(System.in);
         int qtdTeste = sc.nextInt();
-        sc.nextLine();
+        sc.nextLine(); //consumir quebra de linha
 
         for(int i=0; i<qtdTeste; i++){
             String lsCompras = sc.nextLine();
             String[] itens = lsCompras.split(" "); //vetor com itens duplicados
-            ArrayList<String> itensUnicos = new ArrayList<>();
+            ArrayList<String> itensUnicos = new ArrayList<>(); //instanciando arrar itensUnicos
 
             for(String item : itens){ //para cada string item da minha lista de itens
                 if(!itensUnicos.contains(item)){//se na lista itensUnicos contem  item retorna true

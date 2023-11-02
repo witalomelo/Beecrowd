@@ -8,7 +8,7 @@ public class Bee2174{
         int qtdTeste = sc.nextInt();
         sc.nextLine();
 
-        String[] poks = new String[151]; //criando vetor com strings de temanho definido
+        String[] poks = new String[151]; //criando vetor com strings de tamanho definido
 
         int contador = 0;
         for (int i = 0; i < qtdTeste; i++) { //adicionar pokemons na lista
